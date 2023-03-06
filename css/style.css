@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.background{
+    background:linear-gradient(#ae45ae, #e9429e);
+    background-repeat: no-repeat;  
+    display: flex;
+    /* background-color: #bf44af; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+.form{
+    background-color: white;
+    height: 60%;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 2rem;
+    
+}
+.signupbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.lgn, .exb{
+    color: white;
+    background:linear-gradient(#ae45ae, #e9429e);
+
+}
+input{
+    height: 3rem;
+    border: 1px solid gray;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 4px 4px 1;
+    font-size: 1.2rem;
+    
+}
+.forgot{
+    padding-top: 1rem;
+    color: #b144af;
+    text-align: left;
+    padding-left: 2rem;
+}
+.member{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem ;
+}
+.member a{
+    color: #b144af;
+    margin: 1rem;
+}
+
+.button{
+height: 3rem;
+width: 40%;
+background-color:#bf44af ;
+border-radius: 5px;
+border: 1px solid lightgray;
+
+}
+.exb{
+    width: 90%;
+}
+.sgn{
+    background-color: white;
+}
+
+::placeholder{
+    padding-left: 1rem;
+}
