@@ -94,3 +94,7 @@ border: 1px solid lightgray;
 ::placeholder{
     padding-left: 1rem;
 }
+
+@media only screen and (min-width: 400px){
+.form{min-width:360px;}
+}
