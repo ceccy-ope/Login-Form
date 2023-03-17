@@ -95,6 +95,6 @@ border: 1px solid lightgray;
     padding-left: 1rem;
 }
 
-@media only screen and (min-width: 400px){
-.form{min-width:360px;}
+@media only screen and (min-width: 320px){
+.form{min-width:310px;}
 }
